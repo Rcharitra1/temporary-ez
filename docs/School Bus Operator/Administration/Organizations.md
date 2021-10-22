@@ -4,8 +4,9 @@ sidebar_position: 1
 ---
 
 ### What is an Organization?
-
+:::info
 Any institution that is part of the student transportation services. It could be the school board, consortium, bus operators, schools.
+:::
 
 ![img alt](/img/organizations.png)
 
@@ -17,7 +18,7 @@ Any institution that is part of the student transportation services. It could be
 
 ### How to edit / remove an organization?
 
-1. Click the **blue dots** icon at the end of a specific organization listed
+1. Click the ![img alt](/img/3-dots-icon.png) icon at the end of a specific organization listed
 2. Choose between **Edit** or **Delete** 
     - **Edit** - allows to change any information of the organization
     - **Delete**- deletes the organization in the list

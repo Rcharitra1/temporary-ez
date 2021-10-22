@@ -30,3 +30,23 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+
+
+.menu{
+  background-color:#242f3e;
+  
+}
+
+
+
+.menu__link{
+  color:white;
+}
+
+
+
+.sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-styles-module, .docSidebarContainer_3Kbt 
+{
+  background-color:#242f3e;
+}

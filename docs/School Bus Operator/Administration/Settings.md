@@ -18,6 +18,8 @@ Settings is used for editing or updating  the currently selected organisations a
 
 ### How do I update the address for my organisation?
 1. Start by entering your address in the address bar and select the address of your organisation from the drop down results. 
+
+![img alt](/img/settings-update-address.png)
 2. The City, Province, Postal Code are automatically updated from the selected address however you can edit them to match your exact address.
 
 ![img alt](/img/pick-location.png)
