@@ -4,7 +4,7 @@ sidebar_position: 10
 ---
 
 
-### What are the resolution history reports?
+### What is the resolution history reports?
 :::info
 Resolution history reports are summaries of issues that have occured during a time frame and the action/solution made. Included in this report is the **Date**, **Resolution**, **Count**, and **Info** which can be viewed as a list and can be downloaded in excel, csv, or pdf. This information can also be viewed as a chart. 
 :::
@@ -27,7 +27,7 @@ Resolution history reports are summaries of issues that have occured during a ti
 - The bus has communication error
 - Stop not required
 - Stop not accessible
-- The GPS device is not woerking
+- The GPS device is not working
 - There is a mechanical issue with the bus
 - There is a spare drive on route
 - The bus is already at the location
