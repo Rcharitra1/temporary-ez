@@ -13,10 +13,10 @@ A general fence is a point of interest along a route, such as a railway crossing
 
 ### How do I add a general fence?
 
-1. Press the blue <img src='/img/add-fence-btn.png' height='30px' width='80px'/> button.
+1. Press the blue **Add Fence** button.
 2. Name the fence and select the type of fence that you are adding. 
 3. Press the <img src='/img/draw-polygon.png'/>  or <img src='/img/draw-circle.png'/>  button depending on the shape of the fence you want. 
-4. Select the outline points of the general fence and press the <img src='/img/save-btn.png'/> button.
+4. Select the outline points of the general fence and press the **Save** button.
 5. Your general fence will now show up in the general fences section.
 
 ![img alt](/img/generalfences-add-edit.png)

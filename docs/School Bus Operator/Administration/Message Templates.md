@@ -13,7 +13,7 @@ Message templates can be created by users to set custom messages to be used in a
 ### How to add a message template?
 1. To add a message template, toggle the Administration tab on the left side of the screen to view actions that can be performed. Select Message Templates. 
 
-2. Click on <img src='/img/add-msg-temp.png' height='30px' width='100px'/>.
+2. Click on **Add Message Template**.
 3. There are two required fields that need to be completed - Message Type and Message Text. 
 4. Clicking on the Select Message Type field will bring up 2 options - Driver and Admin. 
 5. Select the desired message type and proceed to enter the contents of the desired message in the Enter Message Text field. Lastly, users can toggle the <img src='/img/toggle-btn.png' height='30px' width='50px'/>  switch to activate or deactivate a message template. 

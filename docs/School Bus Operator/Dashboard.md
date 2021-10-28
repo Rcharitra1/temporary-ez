@@ -16,7 +16,7 @@ The dashboard is a visual representation of all the data with a primary intentio
 The Route Board displays information about a bus operator’s routes. Operators can see the status of routes and runs, and a list of all their routes.
 :::
 
-![img alt](/img/dashboard-route-board.PNG)
+![img alt](/img/dashboard-route-board.png)
 
 - **`Route Status`**: Operators can see the status of their routes (Completed, Not Started, On Time, Delayed, and Late).
 - **`Running Status`**: Operators can see the status of their runs (On Time Arrival, Early Warning, Early Alert, Delay Warning, Delay Alert).
@@ -28,27 +28,28 @@ The Route Board displays information about a bus operator’s routes. Operators 
 On this tab, bus operators can see any new alerts for the day.
 :::
 
-![img alt](/img/dashboard-todays-alert.PNG)
+![img alt](/img/dashboard-todays-alert.png)
 
 ### What is Messages?
 
 :::info
-Bus operators can send and receive messages from each other. There are separate tabs to view “Received” and “Sent” messages. There is also a search functionality to find “Received” or “Sent” messages.
+Bus operators can send and receive messages from each other. There are separate tabs to view “Received” and “Sent” messages.
 :::
 
-![img alt](/img/dashboard-message.PNG)
+![img alt](/img/dashboard-message.png)
 
 ### How to send message?
 
-1. Click the “Send Message” button at the top right corner ![img alt](/img/dashboard-message-send-message-button.PNG). Below dialog box will appear.
+1. Click the “Send Message” button.
 
-![img alt](/img/dashboard-message-send-message-dialog.PNG)
+![img alt](/img/dashboard-message-send.png)
 
-2. Select to either send a new message or use a previous message by click/unclicking the toggle button ![img alt](/img/dashboard-message-send-new-message-toggle-button.PNG) . <br />
-   a. If reusing a previous message, do not click “Send New Message”. Select a message from the dropdown menu ![img alt](/img/dashboard-message-send-new-message-dropdown.PNG)
-   <br />
-   b. If creating a new message, click “Send New Message". Type your new message in the box.
+2. Select to either "Send New Message" or use a previous message.
 
-3. Select the driver you want to send the message to. You can search for drivers in the top right search bar ![img alt](/img/dashboard-message-send-new-message-driver.PNG)
+a. If using a previous message, do not click “Send New Message”. Select a message from the dropdown menu. Select the driver/s. Lastly, click "Send" button.
 
-4. Once you are complete, click ![img alt](/img/dashboard-message-send-new-message-send-button.PNG) at the bottom right of the page.
+![img alt](/img/dashboard-message-send-message-previous-message.png)
+
+b. If sending a new message, click “Send New Message". Type your new message in the box. Select the driver/s. Lastly, click "Send" button.
+
+![img alt](/img/dashboard-message-send-message-new-message.png)
