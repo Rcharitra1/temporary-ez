@@ -18,10 +18,10 @@ Enter information in the search box. Information can be First Name, Middle Name,
 
 ### Add a driver
 
-1. Click “Add Driver” button<br />
+1. Click “Add Driver” button.<br />
    ![img alt](/img/admin-drivers-add-driver.PNG)
 
-2. Enter all the necessary information. Lastly, save or cancel the changes <br />
+2. Enter all the necessary information. Lastly, save or cancel the changes. <br />
    ![img alt](/img/admin-drivers-add-driver-information-save-or-cancel.png)
 
 ### Edit a driver
@@ -29,7 +29,7 @@ Enter information in the search box. Information can be First Name, Middle Name,
 1. Click the three dots. Then edit.<br />
    ![img alt](/img/admin-drivers-edit.png)
 
-2. Edit all the necessary information. Lastly, click save or cancel the changes <br />
+2. Edit all the necessary information. Lastly, click save or cancel the changes. <br />
    ![img alt](/img/admin-drivers-edit-save-or-cancel.png)
 
 ### Delete a driver
@@ -37,5 +37,5 @@ Enter information in the search box. Information can be First Name, Middle Name,
 1. Click the three dots. Then delete. <br />
    ![img alt](/img/admin-drivers-delete.png)
 
-2. Click Yes or No to confirm <br />
+2. Click Yes or No to confirm. <br />
    ![img alt](/img/admin-drivers-delete-confirmation.PNG)

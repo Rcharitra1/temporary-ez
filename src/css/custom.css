@@ -31,8 +31,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-
-
 .menu{
   background-color:#242f3e;
   
@@ -50,3 +48,98 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 {
   background-color:#242f3e;
 }
+
+
+.menu > ul>li > ul> li >ul li{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+
+/* 
+svg-inline--fa fa-user fa-w-14 */
+
+
+
+
+.menu > ul>li > ul> li >ul > li:first-of-type>svg>path{
+  fill: red;
+}
+
+.menu > ul>li > ul> li >ul > li:first-of-type:before{
+  mask: url(/static/img/svgs/user-friends-solid.svg);
+  -webkit-mask:url(/static/img/svgs/user-friends-solid.svg);
+  background-color: white;
+  mask-size: cover;
+
+}
+
+.menu > ul>li > ul> li >ul > li:first-of-type:hover:before{
+
+  mask: url(/static/img/svgs/user-friends-solid.svg);
+  -webkit-mask:url(/static/img/svgs/user-friends-solid.svg);
+  background-color: var(--primary);
+  mask-size: cover;
+
+
+}
+
+
+
+.menu > ul>li > ul> li >ul > li:nth-child(2):before{
+
+  mask: url(/static/img/svgs/user-regular.svg);
+  -webkit-mask:url(/static/img/svgs/user-regular.svg);
+
+  background-color: white;
+  mask-size: cover;
+
+}
+
+
+.menu > ul>li > ul> li >ul > li:nth-child(2):hover:before{
+
+  mask: url(/static/img/svgs/user-regular.svg);
+  -webkit-mask:url(/static/img/svgs/user-regular.svg);
+
+  background-color:var(--primary);
+  mask-size: cover;
+
+}
+
+
+.menu > ul>li > ul> li >ul > li:before{
+  height: 24px;
+  width: 24px;
+  margin-right: -8px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /* transition: opacity 0.2s; */
+  content:"";
+}
+
+.menu > ul>li > ul> li >ul > li:nth-child(3):before{
+
+  mask: url(/static/img/svgs/screwdriver-solid.svg);
+  -webkit-mask: url(/static/img/svgs/screwdriver-solid.svg);
+  background-color: white;
+  mask-size: cover;
+}
+
+
+.menu > ul>li > ul> li >ul > li:nth-child(3):hover:before{
+
+  mask: url(/static/img/svgs/screwdriver-solid.svg);
+  -webkit-mask: url(/static/img/svgs/screwdriver-solid.svg);
+  background-color: var(--primary);
+  mask-size: cover;
+
+
+}
+
+
+
+
+

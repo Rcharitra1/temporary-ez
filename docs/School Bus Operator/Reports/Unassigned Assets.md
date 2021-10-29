@@ -21,5 +21,5 @@ There is an **Advanced Filter** dropdown for more filter settings by clicking th
 1. Select Route Type
 2. Select Organization
 3. Click **Search** button to run report <br/>
-   
+
 ![img alt](/img/unassigned-asset-filter.png)

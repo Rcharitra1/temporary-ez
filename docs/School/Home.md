@@ -1,7 +1,13 @@
 ---
+id: Home
 sidebar_position: 1
 ---
 
-# School Home Page
+# School Home
 
--  This would be used as landing page for school help pages.
+:::info
+School bus operators & School organizations can track live school bus runs with every route and stop the notification and get emergency alerts. This web platform gives IoT Solutions for Student Transportation.
+:::
+<br/>
+
+![img alt](/img/bus-operator-homepage.png)

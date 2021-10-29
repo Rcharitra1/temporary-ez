@@ -8,7 +8,7 @@ sidebar_position: 1
 Any institution that is part of the student transportation services. It could be the school board, consortium, bus operators, schools.
 :::
 
-![img alt](/img/organizations.png)
+![img alt](/img/organization.png)
 
 ### How to add an organization?
 
