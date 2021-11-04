@@ -6,12 +6,12 @@ sidebar_position: 1
 ## What is Routes?
 
 :::info
-These are the routes assigned by a school to the bus operator. Users can view the school name, route number, description and a Route type (if it is a Morning or Afternoon route). It also shows the start date of the route, if the route is using a GPS device and if it is active or inactive.
+These are the routes assigned by a school to the school. Users can view the school name, route number, description and a Route type (if it is a Morning or Afternoon route). It also shows the start date of the route, if the route is using a GPS device and if it is active or inactive.
 :::
 
 ![img alt](/img/planning-routes.png)
 
-### View more details about a route
+## View more details about a route
 
 1. Click the three dots at the end of the route list. Click "Edit".
 

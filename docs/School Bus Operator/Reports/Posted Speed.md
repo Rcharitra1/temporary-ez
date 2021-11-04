@@ -5,7 +5,7 @@ sidebar_position: 6
 
 
 :::info
-This is a report that shows the speed of a specific run. This report includes the organization, asset, route, route type, events, incidents, max over speed in km, max over posted speed in km, kilometer travelled, kilometer travelled, and further details. Reports can be downloaded in three formats such as Excel, CSV, or PDF.
+This is a report that shows the speed of a specific run. This report includes the organization, asset, route, route type, events, incidents, max over speed in km, max over posted speed in km, kilometer travelled, kilometer travelled, and further details. Reports can be downloaded in <img src='/img/csv-btn.png' height='20px' width='40px'/>, <img src='/img/pdf-btn.png' height='20px' width='40px'/> and <img src='/img/excel-btn.png' height='20px' width='40px'/> formats.
 :::
 **Posted Speed Defaul View**
 ![img alt](/img/posted-speed.png)

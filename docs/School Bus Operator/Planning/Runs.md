@@ -11,7 +11,7 @@ The run is the schedule that shows the start and end date of the run and also sh
 
 ![img alt](/img/planning-runs.png)
 
-### Update the operating days
+## Update the operating days
 
 1. Select a single run or a multiple runs by checking the checkbox. Click "Action". Then click menu option "Update Operating Days"
 
@@ -21,7 +21,7 @@ The run is the schedule that shows the start and end date of the run and also sh
 
    ![img alt](/img/planning-runs-update-select.png)
 
-### Edit a run
+## Edit a run
 
 1. Click the three dots at the end of each runs. Select "Edit"
    ![img alt](/img/planning-runs-edit.png)

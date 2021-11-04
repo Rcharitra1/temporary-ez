@@ -4,7 +4,7 @@ sidebar_position: 3
 ---
 
 :::info
-These reports are used to assess monthly performance of all the assigned assets of the organization. The bus operator can download these reports in CSV, PDF and Excel. The report has details about each day, asset, route, run, stop number and stop name. The report also features Scheduled arrival time, arrival time  and variance (difference) between the two along with departure time.
+These reports are used to assess monthly performance of all the assigned assets of the organization. The bus operator can download these reports in <img src='/img/csv-btn.png' height='20px' width='40px'/>, <img src='/img/pdf-btn.png' height='20px' width='40px'/> and <img src='/img/excel-btn.png' height='20px' width='40px'/> formats. The report has details about each day, asset, route, run, stop number and stop name. The report also features Scheduled arrival time, arrival time  and variance (difference) between the two along with departure time.
 :::
 
 ### Monthly Perfomance Report Default View

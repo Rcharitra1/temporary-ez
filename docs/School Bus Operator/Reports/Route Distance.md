@@ -4,7 +4,7 @@ sidebar_position: 8
 ---
 
 :::info
-This is a report that shows the distance of a route assigned to the bus operator. In this report, it has organization code, date, asset, route route type, planned runs distance, total distance, run distance start deadhead, end deadhead, and details. Report can be downloaded in Excel, CSV, or PDF format.
+This is a report that shows the distance of a route assigned to the bus operator. In this report, it has organization code, date, asset, route route type, planned runs distance, total distance, run distance start deadhead, end deadhead, and details. Report can be downloaded in <img src='/img/csv-btn.png' height='20px' width='40px'/>, <img src='/img/pdf-btn.png' height='20px' width='40px'/> and <img src='/img/excel-btn.png' height='20px' width='40px'/> formats.
 :::
 **Default View For Route Distance Report**
 ![img alt](/img/route-distance.png)

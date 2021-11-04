@@ -10,13 +10,13 @@ Drivers page is the list of all the active drivers. In this page, user can searc
 :::
 ![img alt](/img/admin-drivers.PNG)
 
-### Search a driver
+## Search a driver
 
 Enter information in the search box. Information can be First Name, Middle Name, Last Name, Email, or Phone. Lastly, click the magnifying glass icon.
 
 ![img alt](/img/admin-drivers-search.png)
 
-### Add a driver
+## Add a driver
 
 1. Click “Add Driver” button.<br />
    ![img alt](/img/admin-drivers-add-driver.PNG)
@@ -24,7 +24,7 @@ Enter information in the search box. Information can be First Name, Middle Name,
 2. Enter all the necessary information. Lastly, save or cancel the changes. <br />
    ![img alt](/img/admin-drivers-add-driver-information-save-or-cancel.png)
 
-### Edit a driver
+## Edit a driver
 
 1. Click the three dots. Then edit.<br />
    ![img alt](/img/admin-drivers-edit.png)
@@ -32,7 +32,7 @@ Enter information in the search box. Information can be First Name, Middle Name,
 2. Edit all the necessary information. Lastly, click save or cancel the changes. <br />
    ![img alt](/img/admin-drivers-edit-save-or-cancel.png)
 
-### Delete a driver
+## Delete a driver
 
 1. Click the three dots. Then delete. <br />
    ![img alt](/img/admin-drivers-delete.png)

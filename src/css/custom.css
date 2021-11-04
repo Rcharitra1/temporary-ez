@@ -5,6 +5,12 @@
  */
 
 /* You can override the default Infima variables here. */
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --ifm-color-primary: #fc3600;
   --ifm-color-primary-dark: #e33100;
@@ -31,22 +37,27 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* Side bar styles*/
+
 .menu{
-  background-color:#242f3e;
-  
+  /* background-color:#d9dadb; */
+  /*background-color:#5aaafa;*/
+  background-color:#f0eded;
 }
 
 
 
 .menu__link{
-  color:white;
+  color:black;
 }
 
 
 
 .sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-styles-module, .docSidebarContainer_3Kbt 
 {
-  background-color:#242f3e;
+ background-color:#ebeff5;
+
+
 }
 
 
@@ -57,25 +68,30 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   
 }
 
-/* 
-svg-inline--fa fa-user fa-w-14 */
 
+.menu:hover{
+  color:#fc3600;
+}
 
 
 
 .menu > ul>li > ul> li >ul > li:first-of-type>svg>path{
-  fill: red;
+  fill:grey;
 }
 
-.menu > ul>li > ul> li >ul > li:first-of-type:before{
+/* Sidebar icons */
+
+.menu > ul>li:nth-child(2)> ul > li:nth-child(7) >ul > li:first-of-type:before{
   mask: url(/static/img/svgs/user-friends-solid.svg);
   -webkit-mask:url(/static/img/svgs/user-friends-solid.svg);
-  background-color: white;
+  background-color:#fc3600;
   mask-size: cover;
 
 }
 
-.menu > ul>li > ul> li >ul > li:first-of-type:hover:before{
+
+
+.menu > ul>li:nth-child(2)> ul > li:nth-child(7)>ul > li:first-of-type:hover:before{
 
   mask: url(/static/img/svgs/user-friends-solid.svg);
   -webkit-mask:url(/static/img/svgs/user-friends-solid.svg);
@@ -87,18 +103,17 @@ svg-inline--fa fa-user fa-w-14 */
 
 
 
-.menu > ul>li > ul> li >ul > li:nth-child(2):before{
+.menu > ul>li:nth-child(2)> ul > :nth-child(7) >ul > li:nth-child(2):before{
 
   mask: url(/static/img/svgs/user-regular.svg);
   -webkit-mask:url(/static/img/svgs/user-regular.svg);
-
-  background-color: white;
+  background-color: #fc3600;
   mask-size: cover;
 
 }
 
 
-.menu > ul>li > ul> li >ul > li:nth-child(2):hover:before{
+.menu > ul>li:nth-child(2)> ul > li:nth-child(7) >ul > li:nth-child(2):hover:before{
 
   mask: url(/static/img/svgs/user-regular.svg);
   -webkit-mask:url(/static/img/svgs/user-regular.svg);
@@ -120,26 +135,103 @@ svg-inline--fa fa-user fa-w-14 */
   content:"";
 }
 
-.menu > ul>li > ul> li >ul > li:nth-child(3):before{
+.menu > ul>li:nth-child(2)> ul > li:nth-child(7)>ul >li:nth-child(3):before{
+  mask: url(/static/img/svgs/screwdriver-solid.svg);
+  -webkit-mask: url(/static/img/svgs/screwdriver-solid.svg);
+  background-color:#fc3600;
+  mask-size: cover;
+}
+
+/* .menu > ul>li::nth-child(2) > ul> li >ul > li:nth-child(3):before{
 
   mask: url(/static/img/svgs/screwdriver-solid.svg);
   -webkit-mask: url(/static/img/svgs/screwdriver-solid.svg);
   background-color: white;
   mask-size: cover;
-}
+} */
 
 
-.menu > ul>li > ul> li >ul > li:nth-child(3):hover:before{
-
+.menu > ul>li:nth-child(2)> ul > :nth-child(7)>ul >li:nth-child(3):hover:before{
   mask: url(/static/img/svgs/screwdriver-solid.svg);
   -webkit-mask: url(/static/img/svgs/screwdriver-solid.svg);
   background-color: var(--primary);
   mask-size: cover;
 
+}
 
+/* Section home grid */
+
+.grid-container {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: auto;
+  padding: 10px;
+  justify-content: center;
+}
+
+.grid-item {
+  background-color:#eef9fd;
+ /* background-color: #f0eded;*/
+  border: 1px solid rgba(240, 242, 245, 1);
+  padding: 20px;
+  font-size: 13px; 
+  border-radius: 25px;
+  width: 250px;
+  height: 275px; 
+   
+}
+
+
+.grid-item:hover{
+ background-color:#f0eded;
+  /*background-color: #eef9fd;*/
 }
 
 
 
+.grid-item p, h3{
+  font-size: 18px;
+  color: black;  
+}
 
 
+.grid-item img{ 
+ display: block; 
+ margin-left: auto;
+ margin-right: auto;  
+ height: 60px;
+ width: 60px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+#smallbox {
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media only screen and (min-width: 550px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .grid-container {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media only screen and (min-width: 997px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+    justify-content: initial;
+  }
+}
+
+@media only screen and (min-width: 1137px) {
+  .grid-container {
+    grid-template-columns: 250px 250px 250px;
+    justify-content: initial;
+  }
+}

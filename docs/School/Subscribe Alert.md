@@ -5,7 +5,7 @@ sidebar_position: 5
 
 ### What is a subscriber alert?
 :::info
-Subscriber alerts are used to send messages to users this can be parents, drivers, students or guradians about delays or changes affecting the scheduled route.These messages can be customized and sent to specific routes or to all routes serviced by the bus operator.  
+Subscriber alerts are used to send messages to users this can be parents, drivers, students or guradians about delays or changes affecting the scheduled route.These messages can be customized and sent to specific routes or to all routes serviced by the school.  
 :::
 
 ### How to add an alert?

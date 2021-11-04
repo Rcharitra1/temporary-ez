@@ -4,7 +4,7 @@ sidebar_label: 'Users'
 sidebar_position: 1
 ---
 
-### What are Users in the Bus Operator System?
+### What are Users in the School System?
 :::info
 Users are people that can be added to be given a certain access on the portal depending on which role they will be assigned to by the Admin. Users can either be added as a Bus Admin operator, Driver, Dispatcher, or Report Viewer.
 :::

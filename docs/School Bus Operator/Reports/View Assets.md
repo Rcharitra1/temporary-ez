@@ -6,7 +6,7 @@ sidebar_position: 11
 
 ### What is the view assets report?
 :::info
-The view asset report is used to show active assets that have been asssigned to routes. This report lists the **Asset Number**, **Organization**, **Route**, **Route Type**, **Start Date**  and **End Date**, **Shift Start Time** and **Shift End Time**. By default when opening the report it shows all active assets being managed by the bus operator. There is a filter available to narrow down the search results by  date, day of the week and organization.
+The view asset report is used to show active assets that have been asssigned to routes. This report lists the **Asset Number**, **Organization**, **Route**, **Route Type**, **Start Date**  and **End Date**, **Shift Start Time** and **Shift End Time**. By default when opening the report it shows all active assets being managed by the bus operator. There is a filter available to narrow down the search results by  date, day of the week and organization. The report can be downloaded in <img src='/img/csv-btn.png' height='20px' width='40px'/>, <img src='/img/pdf-btn.png' height='20px' width='40px'/> and <img src='/img/excel-btn.png' height='20px' width='40px'/> formats.
 :::
 
 ![img alt](/img/reports-view-assets.png)
@@ -22,4 +22,4 @@ Open the advanced filter options by clicking the filter icon on the top right ha
 4. Select Route
 5. Select Route Type
 6. Click ![img alt](/img/reports-search-btn.png) button to generate report.
-7. *Optional* To download a report to a computer click one of the three options available ![img alt](/img/reports-export-options.png).
+7. *Optional* To download a report to a computer click one of the <img src='/img/csv-btn.png' height='20px' width='40px'/>, <img src='/img/pdf-btn.png' height='20px' width='40px'/> and <img src='/img/excel-btn.png' height='20px' width='40px'/> formats.

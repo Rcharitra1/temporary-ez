@@ -10,7 +10,7 @@ These reports are used to track drivers and trips. This report lists a summary o
 
 ### How to filter the driver trip history report?
 :::info
-There is an **Advanced Filter** dropdown for more filter settings by clicking the ![img alt](/img/advanced-filter-btn.png) button on the top right.The bus operator can download these reports in CSV, PDF and Excel.
+There is an **Advanced Filter** dropdown for more filter settings by clicking the ![img alt](/img/advanced-filter-btn.png) button on the top right.The bus operator can download these reports in <img src='/img/csv-btn.png' height='20px' width='40px'/>, <img src='/img/pdf-btn.png' height='20px' width='40px'/> and <img src='/img/excel-btn.png' height='20px' width='40px'/> formats.
 :::
 
 ![img alt](/img/driver-trips-filter.png)

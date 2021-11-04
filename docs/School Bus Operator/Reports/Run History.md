@@ -19,4 +19,4 @@ Open the advanced filter options by clicking the filter icon on the top right ha
 1. Select From **First Date** and **Second Date**. *this picks a date range for the report*
 2. Select Run
 3. Click ![img alt](/img/reports-search-btn.png) button to generate report.
-4. *Optional* To download a report to a computer click one of the three options available ![img alt](/img/reports-export-options.png).
+4. *Optional* To download a report to a computer click one of the three options to download in <img src='/img/csv-btn.png' height='20px' width='40px'/>, <img src='/img/pdf-btn.png' height='20px' width='40px'/> and <img src='/img/excel-btn.png' height='20px' width='40px'/> formats.

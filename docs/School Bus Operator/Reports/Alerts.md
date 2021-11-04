@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 
 :::info
-The Alerts report shows all the alerts that were triggered during a run on a specified period. The reports can be exported as Excel, CSV, PDF files.<br /> There is an **Advanced Filter** dropdown for more filter settings by clicking the funnel icon located on the far right hand side on the Advanced Filter heading..
+The Alerts report shows all the alerts that were triggered during a run on a specified period. The reports can be exported as <img src='/img/csv-btn.png' height='20px' width='40px'/>, <img src='/img/pdf-btn.png' height='20px' width='40px'/> and <img src='/img/excel-btn.png' height='20px' width='40px'/> formats.<br /> There is an **Advanced Filter** dropdown for more filter settings by clicking the funnel icon located on the far right hand side on the Advanced Filter heading..
 :::
 
 ![img alt](/img/alertsreport.png)

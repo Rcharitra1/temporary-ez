@@ -12,7 +12,7 @@ The communications report lists all messages the school has sent to the guradian
 
 ### How to filter the communication report?
 :::note
-There is an **Advanced Filter** to norrow the results in the report. To reveal the menu click the  ![img alt](/img/advanced-filter-btn.png) button on the top right.An option is available to download these reports by clicking the button's located below the report heading. Options are: CSV, PDF and Excel.
+There is an **Advanced Filter** to norrow the results in the report. To reveal the menu click the  ![img alt](/img/advanced-filter-btn.png) button on the top right.An option is available to download these reports by clicking the button's located below the report heading. Options are in <img src='/img/csv-btn.png' height='20px' width='40px'/>, <img src='/img/pdf-btn.png' height='20px' width='40px'/> and <img src='/img/excel-btn.png' height='20px' width='40px'/> formats.
 :::
 
 ![img alt](/img/rpt-communication-filter.png)

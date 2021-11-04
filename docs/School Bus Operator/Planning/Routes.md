@@ -11,7 +11,7 @@ These are the routes assigned by a school to the bus operator. Users can view th
 
 ![img alt](/img/planning-routes.png)
 
-### View more details about a route
+## View more details about a route
 
 1. Click the three dots at the end of the route list. Click "Edit".
 

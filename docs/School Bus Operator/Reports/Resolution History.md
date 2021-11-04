@@ -6,7 +6,7 @@ sidebar_position: 10
 
 ### What is the resolution history reports?
 :::info
-Resolution history reports are summaries of issues that have occured during a time frame and the action/solution made. Included in this report is the **Date**, **Resolution**, **Count**, and **Info** which can be viewed as a list and can be downloaded in excel, csv, or pdf. This information can also be viewed as a chart. 
+Resolution history reports are summaries of issues that have occured during a time frame and the action/solution made. Included in this report is the **Date**, **Resolution**, **Count**, and **Info** which can be viewed as a list and can be downloaded in <img src='/img/csv-btn.png' height='20px' width='40px'/>, <img src='/img/pdf-btn.png' height='20px' width='40px'/> and <img src='/img/excel-btn.png' height='20px' width='40px'/> formats. This information can also be viewed as a chart. 
 :::
 
 ![img alt](/img/reports-resolution-history.png)
