@@ -167,6 +167,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   grid-template-columns: auto;
   padding: 10px;
   justify-content: center;
+  padding-left: 80px;
 }
 
 .grid-item {
@@ -203,6 +204,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
  width: 60px;
  margin-top: 20px;
  margin-bottom: 20px;
+
 }
 
 #smallbox {

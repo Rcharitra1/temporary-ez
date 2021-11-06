@@ -3,10 +3,10 @@ id: Stops
 sidebar_position: 3
 ---
 
-## What are Stops?
+## What is Stops?
 
 :::info
-This page lists all the stops by type for the routes being serviced by the school. User can search stops, filter runs, edit runs, and edit fence.
+This page lists all the stops by type for the routes being serviced by the consortium. User can search stops, filter runs, edit runs, and edit fence.
 :::
 
 ![img alt](/img/planning-stops.png)
