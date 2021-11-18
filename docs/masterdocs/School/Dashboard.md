@@ -1,7 +1,6 @@
 ---
 id: Dashboard
 sidebar_position: 2
-icon: :-)
 ---
 
 ## What is a Dashboard?
