@@ -1,5 +1,5 @@
 ---
-id: Adding a Guardian
+id: Add Guardians
 sidebar_position: 1
 ---
 

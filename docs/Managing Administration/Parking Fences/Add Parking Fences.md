@@ -1,9 +1,9 @@
 ---
-id: Adding Parking Fences
+id: Add Parking Fences
 sidebar_position: 1
 ---
 
-### How to add a parking fence?
+### How to add a parking fence.
 
 1. Click ![img alt](/img/add-btn.png) menu on the top right of the **Parking Fences** page.This will bring up the **Add Parking Fence** screen below.
 

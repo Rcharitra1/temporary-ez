@@ -1,8 +1,8 @@
 ---
-id: Adding Message Templates
+id: Add Message Templates
 sidebar_position: 1
 ---
-# Adding Message Templates
+# Add Message Templates
 
 ### What is a message template?
 :::info
@@ -10,7 +10,7 @@ Message templates can be created by users to set custom messages to be used in a
 :::
 ![img src](/img/message-template.png)
 
-### How to add a message template?
+### How to add a message template.
 1. To add a message template, toggle the Administration tab on the left side of the screen to view actions that can be performed. Select Message Templates. 
 
 2. Click on **Add Message Template**.

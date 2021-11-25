@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ### What is the dispatch page?
 :::info
-The dispatch page is where the bus oparator sees routes and runs that have been assigned by the school consortium. On this page a user can assign an *asset* **Bus** and a driver to a route and a run.  
+The dispatch page is where the bus oparator sees routes and runs that have been assigned by the school consortium. On this page a user can assign an *asset* **Bus** and a driver to a route and a run. This is only available with **Bus operator access**. 
 :::
 
 - Newly assigned routes will show up on the dispatch page without any assigned: **Assigned No.**, **GPS Provider**, **EFF Start Date** , **EFF End Date** and **Driver**. <br/>
@@ -45,7 +45,7 @@ This tab is used to track and view the usage of all the assets deployed by the b
 3. Check that **Is Active** is green and shows a check mark.
 4. Select a **Start Date** and **End Date** 
 5. Click ![img alt](/img/save-btn.png) to save your changes or ![img alt](/img/cancel-btn.png) to discard your changes. <br/><br/>
-*This will bring to the main page where you can confirm the changes made.*
+*This will bring you to the main page where you can confirm the changes made.*
 ![img alt](/img/dispatch-assigned-asset-driver.png) 
 
 ### How to edit an asset assigned to a route?
@@ -58,7 +58,7 @@ This tab is used to track and view the usage of all the assets deployed by the b
 4. Click ![img alt](/img/save-btn.png) to save your changes or ![img alt](/img/cancel-btn.png) to discard your changes.
 
 ### How to unassign an asset assigned to a route?
-1. Click the the three dot icon![img alt](/img/three-dot-btn.png) on the far right hand side of the route name. This will bring up a menu with three options.
+1. Click the the three dot icon!<img src='/img/3-dots-icon.png'/> on the far right hand side of the route name. This will bring up a menu with three options.
    ![img alt](/img/dispatch-unassign-asset.png) 
 2. Select **Unassign Asset** from the menu list.git 
 3. A confirmation screen will pop up press **Yes** to confirm changes.
@@ -75,7 +75,7 @@ This tab is used to track and view the usage of all the assets deployed by the b
 
 ### How to unassign a driver assigned to a route?
 
-1. Click the the three dot icon![img alt](/img/three-dot-btn.png) on the far right hand side of the route name. This will bring up a menu with three options.
+1. Click the the three dot icon!<img src='/img/3-dots-icon.png'/> on the far right hand side of the route name. This will bring up a menu with three options.
    ![img alt](/img/dispatch-unassign-driver.png) 
 2. Select **Unassign Driver(s)** from the menu list.
 3. A confirmation screen will pop up press **Yes** to confirm changes.

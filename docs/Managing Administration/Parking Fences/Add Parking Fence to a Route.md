@@ -3,7 +3,7 @@ id: Add Parking Fence to a Route
 sidebar_position: 2
 ---
 
-### How to add a parking fence to a route?
+### How to add a parking fence to a route.
 
 1. To add a parking fence to a route go to the main **Parking Fences** page.
 2. Click the three dots to the right of the parking fence this should open a menu with two options **Edit** and **Delete**.<br/>

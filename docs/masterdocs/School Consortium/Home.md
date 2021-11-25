@@ -37,7 +37,7 @@ Consortiums can track live school bus runs with every route and stop the notific
   </div>
   </a>
 
-<a href="../School%20Consortium/Subscriber%20Alert" > 
+<a href="/docs/School%20Consortium/Subscriber%20Alert" > 
   <div id="smallbox" class="grid-item">   
    <img src="/img/main-pages/alert.png" alt="Subscriber Alert" />
    <h3>Subscriber Alert</h3>
@@ -46,7 +46,7 @@ Consortiums can track live school bus runs with every route and stop the notific
   </a>
 
 
-<a href="../School%20Consortium/Track%20Route" > 
+<a href="/docs/School%20Consortium/Track%20Route" > 
   <div id="smallbox" class="grid-item">   
    <img src="/img/main-pages/track.png" alt="Track Route" />
    <h3>Track Route</h3>
@@ -55,7 +55,7 @@ Consortiums can track live school bus runs with every route and stop the notific
   </a>
 
 
-<a href="../School%20Consortium/Dashboard" > 
+<a href="/docs/School%20Consortium/Dashboard" > 
   <div id="smallbox" class="grid-item">   
    <img src="/img/main-pages/dashboard.png" alt="Dashboard" />
    <h3>Dashboard</h3>
@@ -63,7 +63,7 @@ Consortiums can track live school bus runs with every route and stop the notific
   </div>
   </a>
 
-<a href="../School%20Consortium/Planning/Routes" > 
+<a href="/docs/School%20Consortium/Planning/Routes" > 
   <div id="smallbox" class="grid-item">   
    <img src="/img/main-pages/route.png" alt="Route" />
    <h3>Route</h3>
@@ -71,7 +71,7 @@ Consortiums can track live school bus runs with every route and stop the notific
   </div>
   </a>
 
-<a href="../School%20Consortium/Planning/Runs" > 
+<a href="/docs/School%20Consortium/Planning/Runs" > 
   <div id="smallbox" class="grid-item">   
    <img src="/img/main-pages/running-track.png" alt="Runs" />
    <h3>Runs</h3>
@@ -79,7 +79,7 @@ Consortiums can track live school bus runs with every route and stop the notific
   </div>
   </a>
 
-<a href="../School%20Consortium/Planning/Stops" > 
+<a href="/docs/School%20Consortium/Planning/Stops" > 
   <div id="smallbox" class="grid-item">   
    <img src="/img/main-pages/stop.png" alt="Stops" />
    <h3>Stops</h3>

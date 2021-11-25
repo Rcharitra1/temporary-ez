@@ -3,7 +3,7 @@ id: Edit and Delete a Parking Fence
 sidebar_position: 3
 ---
 
-### How to edit or delete a parking fence?
+### How to edit or delete a parking fence.
 
 1. To remove a parking fence assigned to a route go to the main **Parking Fences** page.
 2. Click the three dots to the right of the parking fence this should open a menu with two options **Edit** and **Delete**.<br/>

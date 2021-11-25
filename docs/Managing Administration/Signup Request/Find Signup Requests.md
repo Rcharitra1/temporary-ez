@@ -1,9 +1,9 @@
 ---
-id: Finding Signup Requests
+id: Find Signup Requests
 sidebar_position: 1
 ---
 
-### What is a signup request?
+### What is a signup request.
 
 :::info
 Sign up page with allow admins to manage all aspects related to parent/gaurdian/admin signups.
@@ -11,7 +11,7 @@ Sign up page with allow admins to manage all aspects related to parent/gaurdian/
 
 ![img alt](/img/signup-request.png)
 
-### How to find sign up requests?
+### How to find sign up requests.
 
 1. In the find by email search bar, add the email address you're searching.
 2. Hit the **Search** button and any email addresses matching the address will show up.

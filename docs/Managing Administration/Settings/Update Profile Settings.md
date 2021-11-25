@@ -4,12 +4,12 @@ sidebar_position: 1
 ---
 # Update Profile Settings
 
-### How to update profile settings?
+### How to update profile settings.
 :::info
 Profile setting include Organization Name, Organization Code and Timezone.
 :::
 
-### How do I update profile settings for my organisation?
+### How do I update profile settings for my organisation.
 1. This section can be used to edit and update **profile** settings such as **organisation name, organisation code and time zone**.
 
 ![img alt](/img/admin-settings-profile.png)

@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Home
+# Ez-Enroute Help Center
 
 ![img alt](/img/ez-home.png)

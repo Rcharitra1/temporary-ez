@@ -1,5 +1,5 @@
 ---
-id: Adding Organizations
+id: Add Organizations
 sidebar_position: 1
 ---
 

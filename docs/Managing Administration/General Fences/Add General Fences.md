@@ -1,9 +1,9 @@
 ---
-id: Adding General Fences
+id: Add General Fences
 sidebar_position: 1
 ---
 
-### How to add general fences?
+### How to add general fences.
 
 1. Press the blue **Add Fence** button.
 2. Name the fence and select the type of fence that you are adding.

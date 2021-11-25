@@ -1,5 +1,5 @@
 ---
-id: Adding Assets
+id: Add Assets
 sidebar_position: 1
 ---
 

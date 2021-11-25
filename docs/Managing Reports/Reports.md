@@ -3,92 +3,165 @@ id: Reports
 sidebar_position: 1
 ---
 
+
+# Reports
+
 :::info
-Information on report categories can be found here. To quickly find your term, use the menu to the right.
+Listed below are the reports available on the system. Click the corresponding report card to view more details about the report. 
 :::
 
-### Alerts
+<h3>Reports Topics </h3>
 
-The Alerts report shows all the alerts that were triggered during a run on a specified period. <br/>
- [Click here for details](../masterdocs/School/Reports/Alerts.md)
-
-### Communications
-
-The communications report lists all messages the school has sent to the guradians. It shows the message sent, guardian's name, a sent time stamp and message read time stamp.<br/>
- [Click here for details](../masterdocs/School/Reports/Communications.md)
-
-### Driver Trip History
-
-These reports are used to track drivers and trips. This report lists a summary of the route and trips a driver is assigned to. It also includes the start and end time of a route by a driver.<br/>
- [Click here for details](../masterdocs/School/Reports/Driver%20Trip%20History.md)
-
-### Fence Sighting
-
-These reports are used to track when an asset enters a fence, the time stamp of when they entered the fence and a time stamp of when they exited the fence. The advanced filter allows users to search for reports based on a starting date, a route number and by fence type. And the reports can be downloaded in ,excel, pdf and csv formats.<br/>
- [Click here for details](../masterdocs/School%20Bus%20Operator/Reports/Fence%20Sighting.md)
-
-### Monthly Perfomance
-
-These reports are used to assess monthly performance of all the assigned assets of the organization. The report has details about each day, asset, route, run, stop number and stop name. The report also features Scheduled arrival time, arrival time and departure time.<br/>
- [Click here for details](../masterdocs/School%20Bus%20Operator/Reports/Monthly%20Perfomance.md)
-
-### Notifcations
-
-This is a report that shows notifications of a specific run. Notifications will be displayed in a list view with the time and details of the notification. Reports can be downloaded in ,  and  formats.
-
-### Posted Speed
-
-This is a report that shows the speed of a specific run. This report includes the organization, asset, route, route type, events, incidents, max over speed in km, max over posted speed in km, kilometer travelled, kilometer travelled, and further details. <br/>
- [Click here for details](../masterdocs/School%20Bus%20Operator/Reports/Monthly%20Perfomance.md)
-
-### Resolution History
-
-Resolution history reports are summaries of issues that have occured during a time frame and the action/solution made. Included in this report is the Date, Resolution, Count, and Info which can be viewed as a list and can be downloaded. This information can also be viewed as a chart.<br/>
- [Click here for details](../masterdocs/School%20Bus%20Operator/Reports/Resolution%20History.md)
-
-### Route Distance
-
-This is a report that shows the distance of a route assigned to the bus operator. In this report, it has organization code, date, asset, route route type, planned runs distance, total distance, run distance start deadhead, end deadhead, and details. <br/>
- [Click here for details](../masterdocs/School%20Bus%20Operator/Reports/Route%20Distance.md)
+<div class="grid-container">
+<a href="../Reports/Alerts" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/alert.png" alt="Students" />
+   <h3>Alerts</h3>
+   <p>View alert report these reports are triggered during a run.</p>
+  </div>
+  </a>
 
 
-### Route Exception
+<a href="../Reports/Communications" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/bullhorn-solid.svg" alt="Communication" />
+   <h3>Communications</h3>
+   <p>View messages sent to guardians. </p>
+  </div>
+  </a>
 
-This report summarizes all the exceptions that occured on the assigned route. <br/>
- [Click here for details](../masterdocs/School%20Bus%20Operator/Reports/Route%20Exception.md)
+<a href="../Reports/Driver%20Trip%20History" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/history-solid.svg" alt="Driver History" />
+   <h3>Driver Trip History</h3>
+   <p>View a summary of trips a driver is assigned to. </p>
+  </div>
+  </a>
 
-
-### Route Idle Time
-
-This report shows details about idle time in routes. Included in this report is the organization code, date, asset, route, start and end deadhead idle time (in minutes), and details.<br/>
- [Click here for details](../masterdocs/School%20Bus%20Operator/Reports/Route%20Idle%20Time.md)
- 
-
-### Route Path
-
-This report shows the runs that were completed or currently running on a specified period.<br/>
- [Click here for details](../masterdocs/School%20Bus%20Operator/Reports/Route%20Path.md)
-
-### Route Start Performance
-
-The route start performance report is used to generate reports about start timings of the routes using the assigned assets (such as GPS).<br/>
- [Click here for details](../masterdocs/School%20Bus%20Operator/Reports/Resolution%20History.md)
-
-
-### Student Sighting
-
-These student sighting reports are used to see when a student check in and out of the bus along with the times and location on a map. The report has details about each day, student id, student name, grade, route, route type, run, in time, in stop, in type, out time, out stop, out type. The report also features more detiails about the in time and out stop. A user can see the location on map where the student got on and off the bus.<br/>
- [Click here for details](../masterdocs/School%20Bus%20Operator/Reports/Resolution%20History.md)
+<a href="../Reports/Fence%20Sighting" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/binoculars-solid.svg" alt="Fence Sighting" />
+   <h3>Fence Sighting</h3>
+   <p>View assets that entered or exited a fence on a map.</p>
+  </div>
+  </a>
 
 
-### Unassigned Assets
+<a href="../Reports/Monthly%20Perfomance" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/chart-line-solid.svg" alt="Track Route" />
+   <h3>Monthly Perfomance</h3>
+   <p>View perfomance of assets managed by the organization</p>
+  </div>
+  </a>
 
-This report is used to list all the unassigned assets by the organisation. This could be used for optimizing asset utilization within the organization. The user has the option to download the report.
 
-### View Assets
+<a href="../Reports/Notifications" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/bell-regular.svg" alt="Notification" />
+   <h3>Notifications</h3>
+   <p>View notification of a specific run.</p>
+  </div>
+  </a>
 
-The view asset report is used to show active assets that have been asssigned to routes. This report lists the Asset Number, Organization, Route, Route Type, Start Date and End Date, Shift Start Time and Shift End Time. By default when opening the report it shows all active assets being managed by the bus operator. There is a filter available to narrow down the search results by date, day of the week and organization. 
+<a href="../Reports/Posted%20Speed" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/tachometer-alt-solid.svg" alt="Posted Speed" />
+   <h3>Posted Speed</h3>
+   <p>View speed reports of a run</p>
+  </div>
+  </a>
 
-### View Route
+<a href="../Reports/Resolution%20History" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/clipboard-check-solid.svg" alt="Resolution History" />
+   <h3>Resolution History</h3>
+   <p>View summaries of resolutions</p>
+  </div>
+  </a>
 
-The view route report is a consolidated report for all the routes for the school / organization. This report contains general details about each route such as route number, route type, start and end date, fence start and end dates if applicable, route start and end times and also whether the route is active or inactive.
+<a href="../Reports/Route%20Distance" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/route-solid.svg" alt="Route Distance" />
+   <h3>Route Distance</h3>
+   <p> View report details of the distance in a route</p>
+  </div>
+  </a>
+
+  
+<a href="../Reports/Route%20Exception" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/list-solid.svg" alt="Posted Speed" />
+   <h3>Route Exception</h3>
+   <p>View summaries of exceptions on a route</p>
+  </div>
+  </a>
+
+<a href="../Reports/Route%20Idle%20Time" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/bus-solid.svg" alt="Resolution History" />
+   <h3>Route Idle Time</h3>
+   <p>View idle time on a route</p>
+  </div>
+  </a>
+
+<a href="../Reports/Route%20Path" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/map-signs-solid.svg" alt="Route Distance" />
+   <h3>Route Path</h3>
+   <p> View report details of completed or active running routes</p>
+  </div>
+  </a>
+
+    
+<a href="../Reports/Route%20Start%20Perfomance" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/play-circle-regular.svg" alt="Posted Speed" />
+   <h3>Route Start Perfomance</h3>
+   <p>View reports about route start times for assigned assets</p>
+  </div>
+  </a>
+
+<a href="../Reports/Run%20History" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/calendar-alt-regular.svg" alt="Resolution History" />
+   <h3>Run History</h3>
+   <p>View summaries of resolutions</p>
+  </div>
+  </a>
+
+<a href="../Reports/Student%20Sighting" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/user-check-solid.svg" alt="Route Distance" />
+   <h3>Student Sighting</h3>
+   <p> View student check-in and check-out information</p>
+  </div>
+  </a>
+
+    
+<a href="../Reports/Unassigned%20Assets" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/warehouse-solid.svg" alt="Posted Speed" />
+   <h3>Unassigned Assets</h3>
+   <p>View assets that have not been assigned to a route or a run</p>
+  </div>
+  </a>
+
+<a href="../Reports/View%20Assets" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/bus-alt-solid.svg" alt="Resolution History" />
+   <h3>View Assets</h3>
+   <p>View actives assets assigned to a route or a run</p>
+  </div>
+  </a>
+
+<a href="../Reports/View%20Routes" > 
+  <div id="smallbox" class="grid-item">   
+   <img src="/img/main-pages/map-marked-alt-solid.svg" alt="Route Distance" />
+   <h3>View Route</h3>
+   <p> View report of consolidated routes for a school</p>
+  </div>
+  </a>
+</div>
+
+

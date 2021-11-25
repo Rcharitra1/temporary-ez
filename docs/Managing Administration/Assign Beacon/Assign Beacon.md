@@ -10,7 +10,7 @@ Assign beacon section is used to assign beacons to students.The beacons are use 
 
 ![img alt](/img/assign-beacon.png)
 
-### How to assign a beacon?
+### How to assign a beacon.
 1. Hit the blue **Assign Beacon** button.
 2. This will open the assign beacon screen.
 

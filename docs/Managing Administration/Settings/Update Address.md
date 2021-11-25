@@ -4,13 +4,13 @@ sidebar_position: 2
 ---
 # Update Address
 
-### How to update orgazinations physical address?
+### How to update orgazinations physical address.
 :::info
 These setting are used to update the Organizations physical address.
 :::
 
 
-### How do I update the address for my organisation?
+### How do I update the address for my organisation.
 1. Start by entering your address in the address bar and select the address of your organisation from the drop down results. 
 
 ![img alt](/img/settings-update-address.png)

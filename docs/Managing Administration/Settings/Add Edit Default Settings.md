@@ -13,7 +13,7 @@ stop early arrival warning, stop early arrival alert,  stop delay arrival warnin
 ![img alt](/img/org-default-settings.png)
 
 
-### How to add or edit default settings for my organisation?
+### How to add or edit default settings for my organisation.
 This section lets you update default settings for 
 **reports, routes and route stops**.
 

@@ -1,5 +1,5 @@
 ---
-id: Edit a Guardian
+id: Edit Guardians
 sidebar_position: 2
 ---
 

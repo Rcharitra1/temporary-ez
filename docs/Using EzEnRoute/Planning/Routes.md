@@ -3,7 +3,7 @@ id : Routes
 sidebar_position: 1
 ---
 
-## What is Routes?
+## What are routes?
 
 :::info
 These are the routes assigned by a school to the school. Users can view the school name, route number, description and a Route type (if it is a Morning or Afternoon route). It also shows the start date of the route, if the route is using a GPS device and if it is active or inactive.

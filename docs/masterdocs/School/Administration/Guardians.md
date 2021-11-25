@@ -6,7 +6,7 @@ sidebar_position: 2
 ## What is a guardian?
 
 :::info
-A guardian is a person who has the authority to take care or look after the students. Guardians will be assigned by the school. School can add a guardian, search a guardian, edit a guardian, and delete a guardian.
+A guardian is a person who has the authority to take care or look after the students. Guardians will be assigned by the school. Schools can add, search, edit, and delete a guardian.
 :::
 
 ## Add a guardian

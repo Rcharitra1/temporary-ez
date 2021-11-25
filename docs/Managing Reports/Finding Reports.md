@@ -1,5 +1,5 @@
 ---
-id: Finding Your Reports
+id: Finding Reports
 sidebar_position: 2
 ---
 
@@ -8,6 +8,6 @@ The reports can be located by following the **Reports** tab menu on the right ha
 :::
 
 
-<h3><u> ez enRoute Reports Menu Option</u> </h3>
+<h3>ez enRoute Reports Menu Option</h3>
 
 ![img ez enRoute Reports Menu](/img/ez-report-menu.png)

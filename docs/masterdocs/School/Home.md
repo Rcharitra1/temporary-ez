@@ -38,7 +38,7 @@ School organizations can track live school bus runs with every route and stop th
   </div>
   </a>
 
-<a href="../School/Subscriber%20Alert" > 
+<a href="/docs/School/Subscriber%20Alert" > 
   <div id="smallbox" class="grid-item">   
    <img src="/img/main-pages/alert.png" alt="Subscriber Alert" />
    <h3>Subscriber Alert</h3>
@@ -47,7 +47,7 @@ School organizations can track live school bus runs with every route and stop th
   </a>
 
 
-<a href="../School/Track%20Route" > 
+<a href="/docs/School/Track%20Route" > 
   <div id="smallbox" class="grid-item">   
    <img src="/img/main-pages/track.png" alt="Track Route" />
    <h3>Track Route</h3>
@@ -56,7 +56,7 @@ School organizations can track live school bus runs with every route and stop th
   </a>
 
 
-<a href="../School/Dashboard" > 
+<a href="/docs/School/Dashboard" > 
   <div id="smallbox" class="grid-item">   
    <img src="/img/main-pages/dashboard.png" alt="Dashboard" />
    <h3>Dashboard</h3>
@@ -64,7 +64,7 @@ School organizations can track live school bus runs with every route and stop th
   </div>
   </a>
 
-<a href="../School/Planning/Routes" > 
+<a href="/docs/School/Planning/Routes" > 
   <div id="smallbox" class="grid-item">   
    <img src="/img/main-pages/route.png" alt="Route" />
    <h3>Route</h3>
@@ -72,7 +72,7 @@ School organizations can track live school bus runs with every route and stop th
   </div>
   </a>
 
-<a href="../School/Planning/Runs" > 
+<a href="/docs/School/Planning/Runs" > 
   <div id="smallbox" class="grid-item">   
    <img src="/img/main-pages/running-track.png" alt="Runs" />
    <h3>Runs</h3>
@@ -80,7 +80,7 @@ School organizations can track live school bus runs with every route and stop th
   </div>
   </a>
 
-<a href="../School/Planning/Stops" > 
+<a href="/docs/School/Planning/Stops" > 
   <div id="smallbox" class="grid-item">   
    <img src="/img/main-pages/stop.png" alt="Stops" />
    <h3>Stops</h3>

@@ -23,6 +23,9 @@ html {
   --primary: #fc3600;
   --secondary: #2b2b2b;
   --accent: #e89923;
+  /* --primary-dull:#d13e2a; */
+  --primary-dull: #f96752;
+
 
 }
 
@@ -45,35 +48,24 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color:#f0eded;
 }
 
-
-
 .menu__link{
   color:black;
 }
 
-
-
 .sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-styles-module, .docSidebarContainer_3Kbt 
 {
  background-color:#ebeff5;
-
-
 }
-
 
 .menu > ul>li > ul> li >ul li{
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  
 }
-
 
 .menu:hover{
   color:#fc3600;
 }
-
-
 
 .menu > ul>li > ul> li >ul > li:first-of-type>svg>path{
   fill:grey;
@@ -89,11 +81,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 } */
 
-
-
-
-
-
 /* .menu > ul>li:nth-child(2)> ul > li:nth-child(7)>ul > li:first-of-type:hover:before{
 
   mask: url(/static/img/svgs/user-friends-solid.svg);
@@ -103,8 +90,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 
 } */
-
-
 
 /* .menu > ul>li:nth-child(2)> ul > :nth-child(7) >ul > li:nth-child(2):before{
 
@@ -155,17 +140,25 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 /* 
 
 took out last display sidebar item */
-.menu> ul> li:last-child{
+.menu> ul> li:last-child {
   display: none;
 }
+
+ .menu> ul> li:nth-child(5) {
+  display: none;
+}  
+
+ .menu> ul> li:nth-child(2) {
+  display: none;
+} 
+ 
 .menu > ul > li:first-child > a{
-    /* display: flex;  */
-    /* justify-content: space-between; */
-    /* margin-left: -10px; */
+  /* display: flex;  */
+  /* justify-content: space-between; */
+  /* margin-left: -10px; */
 
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
-
 
 /* .menu>ul > li:first-child> a::after{
   margin-left: 68%;
@@ -181,10 +174,7 @@ took out last display sidebar item */
   align-items: center;
 } */
 
-
 /*First Icon Node*/
-
-
 
 .menu > ul > li:first-child > a::before{
   content: "";
@@ -192,181 +182,518 @@ took out last display sidebar item */
   height: 24px;
   width: 24px;
   margin-right: 10px;
-
-  
 }
 
 .menu > ul > li:first-child > a::after{
  margin-left: auto; 
 }
 
-.menu > ul > li:first-child> a:hover{
+/* .menu > ul > li:first-child> a:hover{
   color: var(--primary)
+} */
+
+/* Hover highlights every child in the menu list */
+.menu > ul > li:nth-child(n) a:hover{
+  color: var(--primary);
 }
 
-.menu > ul > li:first-child> a::before{
-
-  mask: url(/static/img/svgs/question-solid.svg);
-  -webkit-mask: url(/static/img/svgs/question-solid.svg);
-  background-color:black;
-  mask-size: contain;
-  mask-repeat: no-repeat;
-  
-
+.menu > ul > li:nth-child(n) a:after{
+  margin-left: auto; 
 }
-
-.menu > ul > li:first-child> a:hover:before{
-
-  mask: url(/static/img/svgs/question-solid.svg);
-  -webkit-mask: url(/static/img/svgs/question-solid.svg);
-  background-color:var(--primary);
-  mask-size: contain;
-  mask-repeat:no-repeat;
-}
-
-
-
 
 /* SUB LIST*/
 
-
-.menu > ul > li:first-child>ul>li:first-child>a::before{
-  content: "";
-  /* flex-basis: 10%; */
-  height: 24px;
-  width: 24px;
-  margin-right: 10px;
+/* SVG ICONS CSS */
+/* Using EZ Enroute */
+.menu > ul > li:first-child> a::before{
+  mask: url(/static/img/svgs/question-solid.svg);
+  -webkit-mask: url(/static/img/svgs/question-solid.svg);
+  
 }
 
-.menu > ul > li:first-child>ul>li>a:hover{
+
+
+/* Managing Administration Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3) >  a::before{
+  mask: url(/static/img/svgs/managingadmin.svg);
+  -webkit-mask: url(/static/img/svgs/managingadmin.svg);
+}
+
+/* Managing Administration  Assigning Icon Color On Hover*/
+.menu> ul> li:nth-child(3) >  a:hover::before{
+  mask: url(/static/img/svgs/managingadmin.svg);
+  -webkit-mask: url(/static/img/svgs/managingadmin.svg);
+}
+
+
+/* Managing Administration - Administration -  Menu Icon Align Anchor Tag*/
+
+/* Managing Administration - Administration - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(1)>  a::before{
+  mask: url(/static/img/svgs/adminglossary.svg);
+  -webkit-mask: url(/static/img/svgs/adminglossary.svg);
+}
+
+/* Managing Administration - Administration - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(1)>  a:hover::before{
+  mask: url(/static/img/svgs/adminglossary.svg);
+  -webkit-mask: url(/static/img/svgs/adminglossary.svg);
+}
+
+/* Managing Administration - Organizations - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(2)>  a::before{
+  mask: url(/static/img/svgs/Organizations_AssignBeacon.svg);
+  -webkit-mask: url(/static/img/svgs/Organizations_AssignBeacon.svg);
+}
+
+/* Managing Administration - Organizations - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(2)>  a:hover::before{
+  mask: url(/static/img/svgs/Organizations_AssignBeacon.svg);
+  -webkit-mask: url(/static/img/svgs/Organizations_AssignBeacon.svg);
+}
+
+/* Managing Administration - Guardians - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(3)>  a::before{
+  mask: url(/static/img/svgs/UsingEzEnRoute_Guardians.svg);
+  -webkit-mask: url(/static/img/svgs/UsingEzEnRoute_Guardians.svg);
+}
+
+/* Managing Administration - Guardians - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(3)>  a:hover::before{
+  mask: url(/static/img/svgs/UsingEzEnRoute_Guardians.svg);
+  -webkit-mask: url(/static/img/svgs/UsingEzEnRoute_Guardians.svg);
+}
+
+/* Managing Administration - Settings - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(4)>  a::before{
+  mask: url(/static/img/svgs/managingadmin.svg);
+  -webkit-mask: url(/static/img/svgs/managingadmin.svg);
+}
+
+/* Managing Administration - Settings - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(4)>  a:hover::before{
+  mask: url(/static/img/svgs/managingadmin.svg);
+  -webkit-mask: url(/static/img/svgs/managingadmin.svg);
+}
+
+/* Managing Administration - Assets - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(5)>  a::before{
+  mask: url(/static/img/svgs/Users_Drivers_Assets_Students.svg);
+  -webkit-mask: url(/static/img/svgs/Users_Drivers_Assets_Students.svg);
+}
+
+/* Managing Administration - Assets - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(5)>  a:hover::before{
+  mask: url(/static/img/svgs/Users_Drivers_Assets_Students.svg);
+  -webkit-mask: url(/static/img/svgs/Users_Drivers_Assets_Students.svg);
+}
+
+/* Managing Administration - Assign Beacon - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(6)>  a::before{
+  mask: url(/static/img/svgs/Organizations_AssignBeacon.svg);
+  -webkit-mask: url(/static/img/svgs/Organizations_AssignBeacon.svg);
+}
+
+/* Managing Administration - Assign Beacon - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(6)>  a:hover::before{
+  mask: url(/static/img/svgs/Organizations_AssignBeacon.svg);
+  -webkit-mask: url(/static/img/svgs/Organizations_AssignBeacon.svg);
+}
+
+/* Managing Administration - Drivers - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(7)>  a::before{
+  mask: url(/static/img/svgs/Users_Drivers_Assets_Students.svg);
+  -webkit-mask: url(/static/img/svgs/Users_Drivers_Assets_Students.svg);
+}
+
+/* Managing Administration - Drivers - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(7)>  a:hover::before{
+  mask: url(/static/img/svgs/Users_Drivers_Assets_Students.svg);
+  -webkit-mask: url(/static/img/svgs/Users_Drivers_Assets_Students.svg);;
+}
+
+/* Managing Administration - General Fences - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(8)>  a::before{
+  mask: url(/static/img/svgs/General_ParkingFences.svg);
+  -webkit-mask: url(/static/img/svgs/General_ParkingFences.svg);
+}
+
+/* Managing Administration - General Fences - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(8)>  a:hover::before{
+  mask: url(/static/img/svgs/General_ParkingFences.svg);
+  -webkit-mask: url(/static/img/svgs/General_ParkingFences.svg);
+}
+
+/* Managing Administration - Message Templates - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(9)>  a::before{
+  mask: url(/static/img/svgs/MessageTemplates.svg);
+  -webkit-mask: url(/static/img/svgs/MessageTemplates.svg);
+}
+
+/* Managing Administration - Message Templates - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(9)>  a:hover::before{
+  mask: url(/static/img/svgs/MessageTemplates.svg);
+  -webkit-mask: url(/static/img/svgs/MessageTemplates.svg);
+}
+
+/* Managing Administration - Parking Fences - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(10)>  a::before{
+  mask: url(/static/img/svgs/General_ParkingFences.svg);
+  -webkit-mask: url(/static/img/svgs/General_ParkingFences.svg);
+}
+
+/* Managing Administration - Parking Fences - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(10)>  a:hover::before{
+  mask: url(/static/img/svgs/General_ParkingFences.svg);
+  -webkit-mask: url(/static/img/svgs/General_ParkingFences.svg);
+}
+
+/* Managing Administration - Signup Request - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(11)>  a::before{
+  mask: url(/static/img/svgs/ViewingSub.Alert_SignupRequest.svg);
+  -webkit-mask: url(/static/img/svgs/ViewingSub.Alert_SignupRequest.svg);
+}
+
+/* Managing Administration - Signup Request - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(11)>  a:hover::before{
+  mask: url(/static/img/svgs/ViewingSub.Alert_SignupRequest.svg);
+  -webkit-mask: url(/static/img/svgs/ViewingSub.Alert_SignupRequest.svg);
+}
+
+/* Managing Administration - Students - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(12)>  a::before{
+  mask: url(/static/img/svgs/Users_Drivers_Assets_Students.svg);
+  -webkit-mask: url(/static/img/svgs/Users_Drivers_Assets_Students.svg);
+}
+
+/* Managing Administration - Students - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(12)>  a:hover::before{
+  mask: url(/static/img/svgs/Users_Drivers_Assets_Students.svg);
+  -webkit-mask: url(/static/img/svgs/Users_Drivers_Assets_Students.svg);
+}
+
+/* Managing Administration - Users - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(13)>  a::before{
+  mask: url(/static/img/svgs/UsingEzEnRoute_Guardians.svg);
+  -webkit-mask: url(/static/img/svgs/UsingEzEnRoute_Guardians.svg);
+}
+
+/* Managing Administration - Users - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(13)>  a:hover::before{
+  mask: url(/static/img/svgs/UsingEzEnRoute_Guardians.svg);
+  -webkit-mask: url(/static/img/svgs/UsingEzEnRoute_Guardians.svg);
+}
+
+/* MANAGING ADMINISTRATION SVG ICONS CSS */
+/* Managing Administration Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3) >  a::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/ManagingAdmin.svg);
+}
+
+/* Managing Administration Assigning Icon Color On Hover*/
+.menu> ul> li:nth-child(3) >  a:hover::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/ManagingAdmin.svg);
+}
+
+/* Managing Administration - Assign Beacon - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(6)>  a::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/Organizations_AssignBeacon.svg);
+
+}
+
+/* Managing Administration - Assign Beacon - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(6)>  a:hover::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/Organizations_AssignBeacon.svg);
+}
+
+/* Managing Administration - Message Templates - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(9)>  a::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/MessageTemplates.svg);
+
+}
+
+/* Managing Administration - Message Templates - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(3)>ul>li:nth-child(9)>  a:hover::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/MessageTemplates.svg);
+}
+
+/* MANAGING REPORTS SVG ICONS CSS */
+
+
+/* Managing Reports Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(4) >  a::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/managingreports.svg);
+}
+
+/* Managing Reports  Assigning Icon Color On Hover*/
+.menu> ul> li:nth-child(4) >  a:hover::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/managingreports.svg);
+}
+
+/* Managing Reports - Reports - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(4)>ul>li:nth-child(1)>  a::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/reports.svg);
+}
+
+/* Managing Reports - Reports - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(4)>ul>li:nth-child(1)>  a:hover::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/reports.svg);
+}
+
+/* Managing Reports -   Finding Reports - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(4)>ul>li:nth-child(2)>  a::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/search-solid.svg);}
+
+/* Managing Reports - Finding Reports - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(4)>ul>li:nth-child(2)>  a:hover::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/search-solid.svg);
+}
+
+/* Managing Reports -   Viewing Reports - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(4)>ul>li:nth-child(3)>  a::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/eye-solid.svg);
+}
+
+/* Managing Reports - Viewing Reports - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(4)>ul>li:nth-child(3)>  a:hover::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/eye-solid.svg);
+}
+
+/* Managing Reports - Download Reports - Assigning Icon Color Tag*/
+.menu> ul> li:nth-child(4)>ul>li:nth-child(4)>  a::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/file-download-solid.svg);}
+
+/* Managing Reports - Download Reports - Assigning Icon Color on Hover*/
+.menu> ul> li:nth-child(4)>ul>li:nth-child(4)>  a:hover::before{
+  mask: url(/static/img/svgs/reports.svg);
+  -webkit-mask: url(/static/img/svgs/file-download-solid.svg);
+}
+
+/* .menu > ul > li:first-child>ul>li>a:hover{
   color: var(--primary);
-}
+} */
 
 .menu > ul > li:first-child>ul>li:first-child>a::after{
   margin-left: auto;
 }
 
-
+/* Using EZ Enroute - Planning */
 .menu > ul > li:first-child>ul>li:first-child>a::before{
   mask: url(/static/img/svgs/Planning.svg);
   -webkit-mask: url(/static/img/svgs/Planning.svg);
-  background-color:black;
-  mask-size: contain;
-  mask-repeat: no-repeat;
-  
 }
-
+.menu > ul > li:first-child>ul>li:nth-child(2)>a:hover:before
 .menu > ul > li:first-child>ul>li:first-child>a:hover:before{
   mask: url(/static/img/svgs/Planning.svg);
   -webkit-mask: url(/static/img/svgs/Planning.svg);
-  background-color:var(--primary);
-  mask-size: contain;
-  mask-repeat:no-repeat;
 }
-
-
-
-.menu > ul > li:first-child>ul>li:nth-child(2)>a{
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.menu > ul > li:first-child>ul>li:nth-child(2)>a::before{
-  content: "";
-  /* flex-basis: 10%; */
-  height: 24px;
-  width: 24px;
-  margin-right: 10px;
-}
-
-
+/* Using Ez Enroute - Tracking Your Routes */
 .menu > ul > li:first-child>ul>li:nth-child(2)>a::before{
   mask: url(/static/img/svgs/TrackRoutes.svg);
   -webkit-mask: url(/static/img/svgs/TrackRoutes.svg);
-  background-color:black;
-  mask-size: contain;
-  mask-repeat: no-repeat;
 }
 
 
 .menu > ul > li:first-child>ul>li:nth-child(2)>a:hover:before{
   mask: url(/static/img/svgs/TrackRoutes.svg);
   -webkit-mask: url(/static/img/svgs/TrackRoutes.svg);
-  background-color:var(--primary);
-  mask-size: contain;
-  mask-repeat: no-repeat;
 }
 
-
-
-
-.menu > ul > li:first-child>ul>li:nth-child(3)>a{
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.menu > ul > li:first-child>ul>li:nth-child(3)>a::before{
-  content: "";
-  /* flex-basis: 10%; */
-  height: 24px;
-  width: 24px;
-  margin-right: 10px;
-}
-
-
+/* Using EzEnroute - Dispatch */
 .menu > ul > li:first-child>ul>li:nth-child(3)>a::before{
   mask: url(/static/img/svgs/Dispatch.svg);
   -webkit-mask: url(/static/img/svgs/Dispatch.svg);
-  background-color:black;
-  mask-size: contain;
-  mask-repeat: no-repeat;
 }
 
 
 .menu > ul > li:first-child>ul>li:nth-child(3)>a:hover:before{
   mask: url(/static/img/svgs/Dispatch.svg);
   -webkit-mask: url(/static/img/svgs/Dispatch.svg);
-  background-color:var(--primary);
-  mask-size: contain;
-  mask-repeat: no-repeat;
 }
-
-
-
-
-
-.menu > ul > li:first-child>ul>li:nth-child(4)>a{
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.menu > ul > li:first-child>ul>li:nth-child(4)>a::before{
-  content: "";
-  /* flex-basis: 10%; */
-  height: 24px;
-  width: 24px;
-  margin-right: 10px;
-}
-
-
+/* Using EzEnroute - Viewing Subscriber Alerts */
 .menu > ul > li:first-child>ul>li:nth-child(4)>a::before{
   mask: url(/static/img/svgs/ViewingSub.Alert_SignupRequest.svg);
   -webkit-mask: url(/static/img/svgs/ViewingSub.Alert_SignupRequest.svg);
-  background-color:black;
-  mask-size: contain;
-  mask-repeat: no-repeat;
 }
 
 
 .menu > ul > li:first-child>ul>li:nth-child(4)>a:hover:before{
   mask: url(/static/img/svgs/ViewingSub.Alert_SignupRequest.svg);
   -webkit-mask: url(/static/img/svgs/ViewingSub.Alert_SignupRequest.svg);
-  background-color:var(--primary);
+}
+
+/* Using EzEnroute - Dashboard */
+.menu > ul > li:first-child>ul>li:nth-child(5)>a::before{
+  mask: url(/static/img/svgs/Dashboard.svg);
+  -webkit-mask: url(/static/img/svgs/Dashboard.svg);
+}
+
+
+.menu > ul > li:first-child>ul>li:nth-child(5)>a:hover:before{
+  mask: url(/static/img/svgs/Dashboard.svg);
+  -webkit-mask: url(/static/img/svgs/Dashboard.svg);
+}
+
+.menu > ul > li:first-child> a:hover:before{
+  mask: url(/static/img/svgs/question-solid.svg);
+  -webkit-mask: url(/static/img/svgs/question-solid.svg);
+}
+
+/* Managing Administration Menu Sizing Icon Tag*/
+/* admin */
+
+/* Menu Icon Align Anchor Tag */
+.menu> ul> li:nth-child(3)>  a,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(6)>  a,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(9)>  a,
+.menu > ul > li:first-child>ul>li:nth-child(4) > a,
+.menu > ul > li:first-child>ul>li:nth-child(3) >  a,
+.menu > ul > li:first-child>ul>li:nth-child(5) >  a,
+.menu> ul> li:nth-child(3)> a,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(1) > a ,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(2) > a, 
+.menu> ul> li:nth-child(3)>ul>li:nth-child(3) > a,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(4) > a, 
+.menu> ul> li:nth-child(3)>ul>li:nth-child(5) > a, 
+.menu> ul> li:nth-child(3)>ul>li:nth-child(6) > a,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(7) > a,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(8) > a,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(9) > a,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(10) > a,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(11) > a,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(12) > a,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(13) > a,
+/* reports */
+.menu> ul> li:nth-child(4)> a,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(1)> a,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(2)> a,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(3)> a,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(4)> a,
+.menu > ul > li:first-child>ul>li:nth-child(2) > a {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.menu> ul> li:nth-child(3)>ul>li:nth-child(6)> a::before,
+.menu> ul> li:nth-child(3)  >a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(9)> a::before,
+.menu > ul > li:first-child>ul>li:nth-child(3)>a::before,
+.menu > ul > li:first-child>ul>li:nth-child(2)>a::before,
+.menu > ul > li:first-child>ul>li:nth-child(4)>a::before,
+.menu > ul > li:first-child>ul>li:nth-child(5)>a::before,
+.menu > ul > li:first-child>ul>li:first-child>a::before,
+.menu> ul> li:nth-child(3)  >a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(1)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(2)> a::before,  .menu> ul> li:nth-child(3)>ul>li:nth-child(3)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(4)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(5)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(6)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(7)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(8)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(9)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(10)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(11)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(12)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(13)> a::before,
+/* reports */
+.menu> ul> li:nth-child(4)  >a::before,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(1)> a::before,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(2)> a::before,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(3)> a::before,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(4)> a::before {
+  content: "";
+  /* flex-basis: 10%; */
+  height: 24px;
+  width: 24px;
+  margin-right:10px;
+}
+
+/* Icon Color Tag */
+/* admin */
+.menu> ul> li:nth-child(3) >  a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(6)>  a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(9)>  a::before,
+.menu > ul > li:first-child>ul>li:nth-child(2)>a::before,
+.menu > ul > li:first-child>ul>li:nth-child(3)>a::before,
+.menu > ul > li:first-child>ul>li:first-child>a::before,
+.menu > ul > li:first-child>ul>li:nth-child(4)>a::before,
+.menu > ul > li:first-child>ul>li:nth-child(5)>a::before,
+.menu > ul > li:first-child> a::before,
+.menu> ul> li:nth-child(3) >  a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(1)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(2)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(3)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(4)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(5)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(6)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(7)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(8)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(9)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(10)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(11)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(12)> a::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(13)> a::before,
+/* reports */
+.menu> ul> li:nth-child(4) >  a::before,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(1)> a::before,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(2)> a::before,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(3)> a::before,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(4)> a::before {
+  background-color:var(--primary-dull);
   mask-size: contain;
   mask-repeat: no-repeat;
 }
 
-
-
-
-
+/* Assigning Icon Color On Hover */
+.menu> ul> li:nth-child(3) >  a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(6)>  a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(9)>  a:hover::before,
+.menu > ul > li:first-child>ul>li:nth-child(2)>a:hover:before,
+.menu > ul > li:first-child>ul>li:first-child>a:hover:before,
+.menu > ul > li:first-child> a:hover:before,
+.menu > ul > li:first-child>ul>li:nth-child(3)>a:hover:before,
+.menu > ul > li:first-child>ul>li:nth-child(4)>a:hover:before,
+.menu > ul > li:first-child>ul>li:nth-child(5)>a:hover:before,
+.menu> ul> li:nth-child(3) > a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(1)> a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(2)> a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(3)> a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(4)> a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(5)> a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(6)> a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(7)> a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(8)> a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(9)> a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(10)> a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(11)>  a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(12)>  a:hover::before,
+.menu> ul> li:nth-child(3)>ul>li:nth-child(13)>  a:hover::before, 
+/* reports */
+.menu> ul> li:nth-child(4) >  a:hover::before,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(1)>  a:hover::before, 
+.menu> ul> li:nth-child(4)>ul>li:nth-child(2)>  a:hover::before,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(2)>  a:hover::before,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(3)>  a:hover::before,
+.menu> ul> li:nth-child(4)>ul>li:nth-child(4)>  a:hover::before { 
+  background-color:var(--primary);
+  mask-size: contain;
+  mask-repeat:no-repeat;
+}
 
 /* .menu > ul>li:nth-child(2)> ul > li:nth-child(7)>ul >li:nth-child(3):hover:before{
   mask: url(/static/img/svgs/screwdriver-solid.svg);
@@ -376,7 +703,7 @@ took out last display sidebar item */
 
 } */
 
-/* Section home grid */
+/* Grid Container Used To Display Report Cards */
 
 .grid-container {
   display: grid;
@@ -387,6 +714,8 @@ took out last display sidebar item */
   padding-left: 80px;
 }
 
+/*Grid Items In Grid Container*/
+
 .grid-item {
   background-color:#eef9fd;
  /* background-color: #f0eded;*/
@@ -396,23 +725,26 @@ took out last display sidebar item */
   border-radius: 25px;
   width: 250px;
   height: 275px; 
-   
 }
 
+/* increased height for admin cards */
+.admin .grid-item {
+  height: 300px;
+}
 
+/* Grid Item Card Background Hover Color*/
 .grid-item:hover{
- background-color:#f0eded;
-  /*background-color: #eef9fd;*/
+ background-color:#f0eded; 
 }
 
 
-
+/* Grid Item Paragraph Settings */
 .grid-item p, h3{
   font-size: 18px;
   color: black;  
 }
 
-
+/* Grid Item Image Settings*/
 .grid-item img{ 
  display: block; 
  margin-left: auto;
@@ -421,8 +753,16 @@ took out last display sidebar item */
  width: 60px;
  margin-top: 20px;
  margin-bottom: 20px;
-
 }
+
+.grid-item img:hover::before{
+  mask-image: linear-gradient(rgb(180, 42, 42), transparent);
+  
+  mask-size: contain;
+  mask-repeat:no-repeat;
+}
+
+
 
 #smallbox {
   cursor: pointer;
@@ -437,21 +777,20 @@ took out last display sidebar item */
 
 @media only screen and (min-width: 850px) {
   .grid-container {
-    grid-template-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
   }
 }
 
 @media only screen and (min-width: 997px) {
   .grid-container {
-    grid-template-columns: auto auto;
-    justify-content: initial;
+      grid-template-columns: auto auto;
+      justify-content: initial;
   }
 }
 
 @media only screen and (min-width: 1137px) {
   .grid-container {
-    grid-template-columns: 250px 250px 250px;
-    justify-content: initial;
+      grid-template-columns: 250px 250px 250px;
+      justify-content: initial;
   }
 }
-
